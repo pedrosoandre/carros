@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>carros — biblioteca 3D de carros vendidos no Brasil</title>
+<meta name="description" content="Demo da biblioteca carros: 530 modelos 3D de carros vendidos no Brasil, com licença de uso comercial e troca de cor da lataria." />
+<link rel="stylesheet" href="style.css" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.185.1/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+
+<aside class="painel">
+  <header class="marca">
+    <h1>carros</h1>
+    <p>Biblioteca aberta de modelos 3D de carros vendidos no Brasil.</p>
+    <p class="recorte">
+      Esta demo carrega <strong>23 dos 530</strong> modelos do catálogo —
+      o suficiente para você ver como funciona sem baixar 2,1 GB.
+    </p>
+  </header>
+
+  <nav class="lista" id="lista" aria-label="Modelos disponíveis"></nav>
+
+  <footer class="rodape">
+    <a href="https://github.com/pedrosoandre/carros" target="_blank" rel="noopener">
+      Ver no GitHub
+    </a>
+  </footer>
+</aside>
+
+<main class="palco">
+  <div id="canvas-host" class="canvas-host"></div>
+
+  <div class="carregando" id="carregando" hidden>
+    <div class="spinner" aria-hidden="true"></div>
+    <span id="carregando-texto">carregando…</span>
+  </div>
+
+  <div class="hud-topo">
+    <div class="titulo-carro">
+      <h2 id="carro-nome">—</h2>
+      <p id="carro-meta"></p>
+    </div>
+    <div class="cenario-troca">
+      <label for="cenario">Cenário</label>
+      <select id="cenario"></select>
+    </div>
+  </div>
+
+  <div class="hud-base">
+    <div class="pintura" id="pintura">
+      <div class="pintura-cabecalho">
+        <span class="rotulo">Pintura da lataria</span>
+        <span class="badge" id="paint-badge">—</span>
+      </div>
+      <div class="cores" id="cores"></div>
+      <p class="pintura-nota" id="paint-nota"></p>
+    </div>
+
+    <p class="credito" id="credito"></p>
+  </div>
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

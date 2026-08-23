@@ -1,0 +1,62 @@
+{
+  "name": "carros",
+  "version": "1.1.0",
+  "description": "Biblioteca aberta de modelos 3D (.glb) de carros vendidos no Brasil — antigos, atuais e importados",
+  "keywords": [
+    "3d",
+    "glb",
+    "gltf",
+    "carros",
+    "cars",
+    "brazil",
+    "threejs",
+    "react-three-fiber",
+    "automotive"
+  ],
+  "license": "MIT",
+  "author": "André Pedroso",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrosoandre/carros.git"
+  },
+  "homepage": "https://github.com/pedrosoandre/carros#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./cars.json": "./cars.json",
+    "./scenery.json": "./scenery.json"
+  },
+  "bin": {
+    "carros-assets": "./bin/carros-assets.mjs"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "cars.json",
+    "scenery.json",
+    "README.md",
+    "LICENSE",
+    "CREDITS.md"
+  ],
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "build": "npm run build:data && tsc",
+    "prepare": "npm run build",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.4.2",
+    "@gltf-transform/core": "^4.4.2",
+    "@gltf-transform/extensions": "^4.4.2",
+    "@gltf-transform/functions": "^4.4.2",
+    "draco3d": "^1.5.7",
+    "meshoptimizer": "^1.2.0",
+    "typescript": "^5.6.3"
+  },
+  "sideEffects": false
+}

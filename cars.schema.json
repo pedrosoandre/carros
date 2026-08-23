@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/pedrosoandre/carros@v1/cars.schema.json",
+  "title": "Carros — manifesto",
+  "description": "Contrato do catálogo de modelos 3D de carros vendidos no Brasil. Versionado por major: um consumidor que fixa @v1 nunca recebe um breaking change de schema.",
+  "type": "object",
+  "required": ["name", "version", "count", "brands", "categories", "cars"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "const": "carros"
+    },
+    "description": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "description": "SemVer do catálogo. Major muda quando o schema muda de forma incompatível; minor quando modelos são adicionados; patch para correções de metadados.",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Redundante com cars.length, mas útil para consumidores que só leem o cabeçalho."
+    },
+    "totalBytes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Soma de bytes de todos os .glb. Útil para consumidores que precisam decidir se vão baixar tudo."
+    },
+    "brands": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "Marcas na ordem canônica do catálogo (\"Genérico\" sempre por último)."
+    },
+    "categories": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/VehicleCategory" },
+      "uniqueItems": true
+    },
+    "cars": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Car" }
+    }
+  },
+  "$defs": {
+    "VehicleCategory": {
+      "type": "string",
+      "enum": ["hatchback", "sedan", "suv", "pickup", "wagon", "minivan", "van", "coupe", "sports", "utility"]
+    },
+    "Confidence": {
+      "type": "string",
+      "enum": ["alta", "média", "baixa"]
+    },
+    "License": {
+      "type": "string",
+      "description": "Licença Creative Commons do modelo 3D. Uso comercial exige atribuição do autor.",
+      "enum": ["CC Attribution", "CC Attribution-ShareAlike"]
+    },
+    "Car": {
+      "type": "object",
+      "required": ["id", "brand", "model", "years", "category", "file", "bytes", "paint", "credit"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Slug estável. Nunca muda para um mesmo carro; rename = novo id + entrada antiga preservada por 1 major.",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "brand": { "type": "string", "minLength": 1 },
+        "model": { "type": "string", "minLength": 1 },
+        "years": {
+          "type": "array",
+          "description": "[primeiro ano, último ano] de produção coberto pelo modelo 3D.",
+          "items": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "category": { "$ref": "#/$defs/VehicleCategory" },
+        "file": {
+          "type": "string",
+          "description": "Nome do arquivo .glb dentro de assets/.",
+          "pattern": "^[a-z0-9-]+\\.glb$"
+        },
+        "bytes": { "type": "integer", "minimum": 0 },
+        "paint": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/PaintTarget" }
+          ],
+          "description": "null quando nenhum material da malha pôde ser identificado como lataria com segurança. Prefira não repintar a repintar errado."
+        },
+        "credit": { "$ref": "#/$defs/Credit" }
+      }
+    },
+    "PaintTarget": {
+      "type": "object",
+      "required": ["materials", "textured", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "materials": {
+          "type": "array",
+          "description": "Nome(s) do(s) material(is) glTF que compõem a lataria. Use para localizar as meshes ao repintar.",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "textured": {
+          "type": "boolean",
+          "description": "Se true, a lataria tem textura própria e a cor deve tingir (multiplicar) a textura em vez de substituí-la."
+        },
+        "confidence": { "$ref": "#/$defs/Confidence" }
+      }
+    },
+    "Credit": {
+      "type": "object",
+      "description": "Atribuição obrigatória pela licença CC BY. Consumidores DEVEM exibir credit.author sempre que o modelo aparecer publicamente.",
+      "required": ["author", "authorUrl", "license", "sourceName", "sourceUrl"],
+      "additionalProperties": false,
+      "properties": {
+        "author": { "type": "string", "minLength": 1 },
+        "authorUrl": { "type": ["string", "null"], "format": "uri" },
+        "license": { "$ref": "#/$defs/License" },
+        "sourceName": { "type": ["string", "null"] },
+        "sourceUrl": { "type": ["string", "null"], "format": "uri" }
+      }
+    }
+  }
+}

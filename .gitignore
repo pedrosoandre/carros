@@ -1,0 +1,10 @@
+node_modules/
+dist/
+src/generated/
+demo/models/
+*.log
+.DS_Store
+.env
+.env.local
+scratch/
+scripts/prep-*.mjs

@@ -1,0 +1,1101 @@
+{
+  "name": "carros / scenery",
+  "description": "Cenários 3D para uso com a biblioteca carros — garagens, oficinas, showrooms.",
+  "version": "0.1.0",
+  "count": 35,
+  "totalBytes": 362113000,
+  "kinds": [
+    "garage",
+    "gas-station",
+    "parking",
+    "showroom",
+    "workshop"
+  ],
+  "scenery": [
+    {
+      "id": "garage-american-house",
+      "name": "American House",
+      "kind": "garage",
+      "file": "scenery/garage-american-house.glb",
+      "bytes": 29757240,
+      "bbox": {
+        "min": [
+          -9.967,
+          -2.762,
+          -8.074
+        ],
+        "max": [
+          11.583,
+          7.884,
+          11.024
+        ],
+        "dimensions": {
+          "x": 21.55,
+          "y": 10.646,
+          "z": 19.097
+        }
+      },
+      "credit": {
+        "author": "AleixoAlonso",
+        "authorUrl": "https://sketchfab.com/AleixoAlonso",
+        "license": "CC Attribution",
+        "sourceName": "American House",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-798ffaeadacf4e08a2665785422fb45d"
+      }
+    },
+    {
+      "id": "garage-brutalist-interior",
+      "name": "Brutalist Interior",
+      "kind": "garage",
+      "file": "scenery/garage-brutalist-interior.glb",
+      "bytes": 3009036,
+      "bbox": {
+        "min": [
+          -43.708,
+          -40.61,
+          -0.02
+        ],
+        "max": [
+          40.61,
+          40.913,
+          7.131
+        ],
+        "dimensions": {
+          "x": 84.318,
+          "y": 81.522,
+          "z": 7.151
+        }
+      },
+      "credit": {
+        "author": "vslite",
+        "authorUrl": "https://sketchfab.com/vslite",
+        "license": "CC Attribution",
+        "sourceName": "Brutalist Interior",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-0eb40f2cb2bf4dfdbaae36095825788a"
+      }
+    },
+    {
+      "id": "garage-carlift",
+      "name": "Carlift",
+      "kind": "garage",
+      "file": "scenery/garage-carlift.glb",
+      "bytes": 2418540,
+      "bbox": {
+        "min": [
+          -261.39,
+          -189.246,
+          0
+        ],
+        "max": [
+          261.39,
+          189.246,
+          287.633
+        ],
+        "dimensions": {
+          "x": 522.781,
+          "y": 378.493,
+          "z": 287.633
+        }
+      },
+      "credit": {
+        "author": "3ddominator",
+        "authorUrl": "https://sketchfab.com/roughdominator",
+        "license": "CC Attribution",
+        "sourceName": "Carlift",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-2dfad5340895423b8ec58fc392e4af32"
+      }
+    },
+    {
+      "id": "garage-dae-diorama-forest-loner",
+      "name": "Dae Diorama - Forest Loner Racing",
+      "kind": "garage",
+      "file": "scenery/garage-dae-diorama-forest-loner.glb",
+      "bytes": 35626164,
+      "bbox": {
+        "min": [
+          -1367.255,
+          0.231,
+          -1291.262
+        ],
+        "max": [
+          1371.83,
+          2335.262,
+          1234.234
+        ],
+        "dimensions": {
+          "x": 2739.085,
+          "y": 2335.031,
+          "z": 2525.496
+        }
+      },
+      "credit": {
+        "author": "Julian",
+        "authorUrl": "https://sketchfab.com/julianrijken",
+        "license": "CC Attribution",
+        "sourceName": "DAE Diorama - Forest Loner & Racing",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-d07f6f63202440739a95d80a0e93e9b6"
+      }
+    },
+    {
+      "id": "garage-decayed-concrete-train-shed",
+      "name": "Decayed Concrete Train Shed With Graffiti",
+      "kind": "garage",
+      "file": "scenery/garage-decayed-concrete-train-shed.glb",
+      "bytes": 4963464,
+      "bbox": {
+        "min": [
+          -18.981,
+          -11.336,
+          -0.151
+        ],
+        "max": [
+          21.062,
+          11.39,
+          14.315
+        ],
+        "dimensions": {
+          "x": 40.043,
+          "y": 22.726,
+          "z": 14.466
+        }
+      },
+      "credit": {
+        "author": "Оrрндп ЯТG",
+        "authorUrl": "https://sketchfab.com/orphanrtg",
+        "license": "CC Attribution",
+        "sourceName": "Decayed concrete train shed with graffiti",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-6ac088dcd828410c92f11a8710133a4d"
+      }
+    },
+    {
+      "id": "desert-planet-bunker-garage",
+      "name": "Desert Planet Bunker Garage Thing",
+      "kind": "garage",
+      "file": "scenery/desert-planet-bunker-garage.glb",
+      "bytes": 20805780,
+      "bbox": {
+        "min": [
+          -27.957,
+          -7.481,
+          -1.992
+        ],
+        "max": [
+          15.507,
+          17.552,
+          9.019
+        ],
+        "dimensions": {
+          "x": 43.464,
+          "y": 25.033,
+          "z": 11.01
+        }
+      },
+      "credit": {
+        "author": "Santeri Riikonen",
+        "authorUrl": "https://sketchfab.com/eKross",
+        "license": "CC Attribution",
+        "sourceName": "Desert Planet Bunker Garage Thing",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-ebe3177a1c7947b98328d8cab6aa8600"
+      }
+    },
+    {
+      "id": "garage-distribution-box",
+      "name": "Distribution Box",
+      "kind": "garage",
+      "file": "scenery/garage-distribution-box.glb",
+      "bytes": 3146060,
+      "bbox": {
+        "min": [
+          -69.001,
+          -96.732,
+          -100
+        ],
+        "max": [
+          63.578,
+          12.67,
+          332.997
+        ],
+        "dimensions": {
+          "x": 132.578,
+          "y": 109.401,
+          "z": 432.997
+        }
+      },
+      "credit": {
+        "author": "Evgenii Sobolev",
+        "authorUrl": "https://sketchfab.com/ESobolev",
+        "license": "CC Attribution",
+        "sourceName": "Distribution_Box",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-18b306c360d24cac9f5cbbfe96cfed41"
+      }
+    },
+    {
+      "id": "empty-old-garage-room",
+      "name": "Empty Old Garage Room",
+      "kind": "garage",
+      "file": "scenery/empty-old-garage-room.glb",
+      "bytes": 14935396,
+      "bbox": {
+        "min": [
+          -10.95,
+          -4.498,
+          -190.829
+        ],
+        "max": [
+          12.471,
+          1,
+          12.536
+        ],
+        "dimensions": {
+          "x": 23.421,
+          "y": 5.498,
+          "z": 203.365
+        }
+      },
+      "credit": {
+        "author": "NEYCER",
+        "authorUrl": "https://sketchfab.com/NEYCER",
+        "license": "CC Attribution",
+        "sourceName": "Empty old Garage room",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-778f5663b0c244508342bdc0f7a1db38"
+      }
+    },
+    {
+      "id": "garage-door",
+      "name": "Garage Door",
+      "kind": "garage",
+      "file": "scenery/garage-door.glb",
+      "bytes": 3451156,
+      "bbox": {
+        "min": [
+          -16.31,
+          -15.156,
+          -35.959
+        ],
+        "max": [
+          16.397,
+          36.262,
+          0.062
+        ],
+        "dimensions": {
+          "x": 32.707,
+          "y": 51.418,
+          "z": 36.021
+        }
+      },
+      "credit": {
+        "author": "FrodoUndead",
+        "authorUrl": "https://sketchfab.com/FrodoUndead",
+        "license": "CC Attribution",
+        "sourceName": "Garage Door",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-d5c417514e834a04b27b1a013d86a805"
+      }
+    },
+    {
+      "id": "garage-modular-shed-with-interior",
+      "name": "Modular Shed With Interior",
+      "kind": "garage",
+      "file": "scenery/garage-modular-shed-with-interior.glb",
+      "bytes": 30307300,
+      "bbox": {
+        "min": [
+          16.034,
+          14.805,
+          2
+        ],
+        "max": [
+          24.002,
+          25.12,
+          8.191
+        ],
+        "dimensions": {
+          "x": 7.968,
+          "y": 10.316,
+          "z": 6.191
+        }
+      },
+      "credit": {
+        "author": "denniswoo1993",
+        "authorUrl": "https://sketchfab.com/denniswoo1993",
+        "license": "CC Attribution",
+        "sourceName": "Free Modular Shed with interior",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-30b1eb71bb0e4b889160f8283e1750c1"
+      }
+    },
+    {
+      "id": "garage-old-industrial-building",
+      "name": "Old Industrial Building",
+      "kind": "garage",
+      "file": "scenery/garage-old-industrial-building.glb",
+      "bytes": 4008812,
+      "bbox": {
+        "min": [
+          -6.703,
+          -24.979,
+          -6.847
+        ],
+        "max": [
+          4.908,
+          9.528,
+          8.327
+        ],
+        "dimensions": {
+          "x": 11.611,
+          "y": 34.507,
+          "z": 15.174
+        }
+      },
+      "credit": {
+        "author": "Hrvoje Wächter",
+        "authorUrl": "https://sketchfab.com/gazdahrco",
+        "license": "CC Attribution",
+        "sourceName": "Old Industrial Building",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-0dafa7aaadfd4666bb4a32776c84b14e"
+      }
+    },
+    {
+      "id": "rick-and-morty-garage",
+      "name": "Rick And Morty Garage Fan Art",
+      "kind": "garage",
+      "file": "scenery/rick-and-morty-garage.glb",
+      "bytes": 1247252,
+      "bbox": {
+        "min": [
+          -6.65,
+          -7.3,
+          -1.623
+        ],
+        "max": [
+          4.777,
+          2.4,
+          8.147
+        ],
+        "dimensions": {
+          "x": 11.428,
+          "y": 9.7,
+          "z": 9.771
+        }
+      },
+      "credit": {
+        "author": "Mumladze28",
+        "authorUrl": "https://sketchfab.com/Mumladze28",
+        "license": "CC Attribution",
+        "sourceName": "Rick and Morty Garage (Fan Art)",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-4e882af2241d43bc9870ad7ef13fe539"
+      }
+    },
+    {
+      "id": "sci-fi-garage",
+      "name": "Sci-fi Garage",
+      "kind": "garage",
+      "file": "scenery/sci-fi-garage.glb",
+      "bytes": 22474024,
+      "bbox": {
+        "min": [
+          -4.33,
+          -6.815,
+          -5.099
+        ],
+        "max": [
+          98.482,
+          99.04,
+          13.826
+        ],
+        "dimensions": {
+          "x": 102.812,
+          "y": 105.855,
+          "z": 18.925
+        }
+      },
+      "credit": {
+        "author": "Adelaide Essex",
+        "authorUrl": "https://sketchfab.com/Adelaide_Essex",
+        "license": "CC Attribution",
+        "sourceName": "Sci-Fi Garage",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-5317acd8a054403989bf68f11ad89951"
+      }
+    },
+    {
+      "id": "garage-street-exterior-dead-end",
+      "name": "Street Exterior Dead End",
+      "kind": "garage",
+      "file": "scenery/garage-street-exterior-dead-end.glb",
+      "bytes": 5505852,
+      "bbox": {
+        "min": [
+          -5.319,
+          -221.218,
+          -31.738
+        ],
+        "max": [
+          15.636,
+          285.263,
+          60.184
+        ],
+        "dimensions": {
+          "x": 20.955,
+          "y": 506.482,
+          "z": 91.923
+        }
+      },
+      "credit": {
+        "author": "shhiiii",
+        "authorUrl": "https://sketchfab.com/yulaflibiskuvi",
+        "license": "CC Attribution",
+        "sourceName": "Street Exterior Dead End",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-1836a0d439dd4f77bb777349288697d0"
+      }
+    },
+    {
+      "id": "garage-suburban-shabby-house",
+      "name": "Suburban Shabby House",
+      "kind": "garage",
+      "file": "scenery/garage-suburban-shabby-house.glb",
+      "bytes": 7048360,
+      "bbox": {
+        "min": [
+          -751.992,
+          -719.813,
+          -21.359
+        ],
+        "max": [
+          844.033,
+          1019.551,
+          1630.683
+        ],
+        "dimensions": {
+          "x": 1596.024,
+          "y": 1739.363,
+          "z": 1652.042
+        }
+      },
+      "credit": {
+        "author": "Simlion",
+        "authorUrl": "https://sketchfab.com/simlion",
+        "license": "CC Attribution",
+        "sourceName": "Suburban shabby house low poly",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-f4678340de204c829e79a01f216e1be0"
+      }
+    },
+    {
+      "id": "garage-tire-rack",
+      "name": "Tire Rack",
+      "kind": "garage",
+      "file": "scenery/garage-tire-rack.glb",
+      "bytes": 2139008,
+      "bbox": {
+        "min": [
+          -42.394,
+          -125,
+          -44.162
+        ],
+        "max": [
+          42.394,
+          125,
+          216.934
+        ],
+        "dimensions": {
+          "x": 84.788,
+          "y": 250,
+          "z": 261.096
+        }
+      },
+      "credit": {
+        "author": "3ddominator",
+        "authorUrl": "https://sketchfab.com/roughdominator",
+        "license": "CC Attribution",
+        "sourceName": "Tire Rack",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-3e4fdc69fe5f428082242a32a343c28a"
+      }
+    },
+    {
+      "id": "garage-urban-building",
+      "name": "Urban Building",
+      "kind": "garage",
+      "file": "scenery/garage-urban-building.glb",
+      "bytes": 4614260,
+      "bbox": {
+        "min": [
+          -418.714,
+          -493.404,
+          -340.268
+        ],
+        "max": [
+          418.714,
+          459.938,
+          209.226
+        ],
+        "dimensions": {
+          "x": 837.428,
+          "y": 953.342,
+          "z": 549.494
+        }
+      },
+      "credit": {
+        "author": "Sousinho",
+        "authorUrl": "https://sketchfab.com/sousinho",
+        "license": "CC Attribution",
+        "sourceName": "Urban Building",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-1704ecbc09a24f358332fd358c818d18"
+      }
+    },
+    {
+      "id": "garage-workbench",
+      "name": "Workbench",
+      "kind": "garage",
+      "file": "scenery/garage-workbench.glb",
+      "bytes": 15742608,
+      "bbox": {
+        "min": [
+          -4.948,
+          -1.909,
+          -0.848
+        ],
+        "max": [
+          1.796,
+          2.05,
+          3.716
+        ],
+        "dimensions": {
+          "x": 6.744,
+          "y": 3.959,
+          "z": 4.564
+        }
+      },
+      "credit": {
+        "author": "Bársh",
+        "authorUrl": "https://sketchfab.com/borsh_and",
+        "license": "CC Attribution",
+        "sourceName": "Workbench",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-0a49e3b3b9624a2bb21eeeb473397873"
+      }
+    },
+    {
+      "id": "gas-station",
+      "name": "Gas Station",
+      "kind": "gas-station",
+      "file": "scenery/gas-station.glb",
+      "bytes": 7769340,
+      "bbox": {
+        "min": [
+          -106.673,
+          -72.748,
+          -94.449
+        ],
+        "max": [
+          95.766,
+          62.321,
+          93.841
+        ],
+        "dimensions": {
+          "x": 202.44,
+          "y": 135.069,
+          "z": 188.29
+        }
+      },
+      "credit": {
+        "author": "Elbolillo",
+        "authorUrl": "https://sketchfab.com/Elbolilloduro",
+        "license": "CC Attribution",
+        "sourceName": "Gas station",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-eeb913b90b4344ddbd7852f82a7ef160"
+      }
+    },
+    {
+      "id": "gas-station-props",
+      "name": "Gas Station Props",
+      "kind": "gas-station",
+      "file": "scenery/gas-station-props.glb",
+      "bytes": 4124492,
+      "bbox": {
+        "min": [
+          -8.364,
+          -11.609,
+          -44.34
+        ],
+        "max": [
+          10.444,
+          11.609,
+          36.825
+        ],
+        "dimensions": {
+          "x": 18.807,
+          "y": 23.218,
+          "z": 81.165
+        }
+      },
+      "credit": {
+        "author": "Elbolillo",
+        "authorUrl": "https://sketchfab.com/Elbolilloduro",
+        "license": "CC Attribution",
+        "sourceName": "Gas station Props",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-8fcd52f1b12e4b4296589b4c6328b777"
+      }
+    },
+    {
+      "id": "gas-station-ussr",
+      "name": "Gas Station Ussr",
+      "kind": "gas-station",
+      "file": "scenery/gas-station-ussr.glb",
+      "bytes": 11355960,
+      "bbox": {
+        "min": [
+          -22.271,
+          -13.498,
+          -69.142
+        ],
+        "max": [
+          19.454,
+          13.527,
+          49.393
+        ],
+        "dimensions": {
+          "x": 41.725,
+          "y": 27.025,
+          "z": 118.535
+        }
+      },
+      "credit": {
+        "author": "Milionna",
+        "authorUrl": "https://sketchfab.com/milionna",
+        "license": "CC Attribution",
+        "sourceName": "Gas Station USSR",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-59fd8a6af93f49cdbcf027710ddd6719"
+      }
+    },
+    {
+      "id": "small-red-gas-station",
+      "name": "Small Red Gas Station",
+      "kind": "gas-station",
+      "file": "scenery/small-red-gas-station.glb",
+      "bytes": 12631104,
+      "bbox": {
+        "min": [
+          -20.658,
+          -18.087,
+          -37.562
+        ],
+        "max": [
+          20.658,
+          26.042,
+          3.79
+        ],
+        "dimensions": {
+          "x": 41.315,
+          "y": 44.129,
+          "z": 41.353
+        }
+      },
+      "credit": {
+        "author": "RYBY_DLA_DEBILI",
+        "authorUrl": "https://sketchfab.com/SmashedBones",
+        "license": "CC Attribution",
+        "sourceName": "Small Red Gas Station",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-1a0feafb044148e585bfe588afe617b8"
+      }
+    },
+    {
+      "id": "building-workshop-parking-workshop",
+      "name": "Building Workshop Parking Workshop",
+      "kind": "parking",
+      "file": "scenery/building-workshop-parking-workshop.glb",
+      "bytes": 16056832,
+      "bbox": {
+        "min": [
+          -1335.616,
+          -910.387,
+          0
+        ],
+        "max": [
+          1377.421,
+          500,
+          308.059
+        ],
+        "dimensions": {
+          "x": 2713.037,
+          "y": 1410.387,
+          "z": 308.059
+        }
+      },
+      "credit": {
+        "author": "Mehdi Shahsavan",
+        "authorUrl": "https://sketchfab.com/ahmagh2e",
+        "license": "CC Attribution",
+        "sourceName": "Building workshop Parking workshop",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-f0dd71d238eb40cc85d224283d8a3d09"
+      }
+    },
+    {
+      "id": "parking-garage",
+      "name": "Parking Garage",
+      "kind": "parking",
+      "file": "scenery/parking-garage.glb",
+      "bytes": 3888816,
+      "bbox": {
+        "min": [
+          -245.217,
+          -316.237,
+          0
+        ],
+        "max": [
+          471.62,
+          316.237,
+          142.635
+        ],
+        "dimensions": {
+          "x": 716.837,
+          "y": 632.475,
+          "z": 142.635
+        }
+      },
+      "credit": {
+        "author": "Idmenthal",
+        "authorUrl": "https://sketchfab.com/idmental.id",
+        "license": "CC Attribution",
+        "sourceName": "Parking garage [FREE DOWNLOAD]",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-5310b7d77b70427d936ec4253fff679c"
+      }
+    },
+    {
+      "id": "showroom-medium-show-room",
+      "name": "Medium Show Room",
+      "kind": "showroom",
+      "file": "scenery/showroom-medium-show-room.glb",
+      "bytes": 90240,
+      "bbox": {
+        "min": [
+          -10,
+          -10,
+          0
+        ],
+        "max": [
+          10,
+          10,
+          1.1
+        ],
+        "dimensions": {
+          "x": 20,
+          "y": 20,
+          "z": 1.1
+        }
+      },
+      "credit": {
+        "author": "MRowa",
+        "authorUrl": "https://sketchfab.com/MRowa",
+        "license": "CC Attribution-ShareAlike",
+        "sourceName": "Medium Show Room",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-59cf5de086154ea3a8c340078f5c7a79"
+      }
+    },
+    {
+      "id": "metallic-showroom-gallery",
+      "name": "Metallic Showroom Gallery",
+      "kind": "showroom",
+      "file": "scenery/metallic-showroom-gallery.glb",
+      "bytes": 8677548,
+      "bbox": {
+        "min": [
+          -1072.968,
+          -1158.002,
+          0
+        ],
+        "max": [
+          1343.282,
+          610.248,
+          125.315
+        ],
+        "dimensions": {
+          "x": 2416.25,
+          "y": 1768.25,
+          "z": 125.315
+        }
+      },
+      "credit": {
+        "author": "jimbogies",
+        "authorUrl": "https://sketchfab.com/jimbogies",
+        "license": "CC Attribution",
+        "sourceName": "Metallic Showroom Gallery",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-5dca77c363d449409d878782e3da369f"
+      }
+    },
+    {
+      "id": "workshop-blacksmithing-tools",
+      "name": "Blacksmithing Tools.",
+      "kind": "workshop",
+      "file": "scenery/workshop-blacksmithing-tools.glb",
+      "bytes": 23659096,
+      "bbox": {
+        "min": [
+          -53.087,
+          -19.358,
+          -0.503
+        ],
+        "max": [
+          39.128,
+          22.907,
+          28.822
+        ],
+        "dimensions": {
+          "x": 92.216,
+          "y": 42.265,
+          "z": 29.325
+        }
+      },
+      "credit": {
+        "author": "Gnossiennes",
+        "authorUrl": "https://sketchfab.com/Gnossiennes",
+        "license": "CC Attribution",
+        "sourceName": "Blacksmithing tools.",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-7bdc1aa42c8643cd9523aa2b64e9ed27"
+      }
+    },
+    {
+      "id": "workshop-building-metallic-protective-fence",
+      "name": "Building Metallic Protective Fence",
+      "kind": "workshop",
+      "file": "scenery/workshop-building-metallic-protective-fence.glb",
+      "bytes": 9993508,
+      "bbox": {
+        "min": [
+          -1142.098,
+          -2215.271,
+          0
+        ],
+        "max": [
+          1142.098,
+          2215.271,
+          419.903
+        ],
+        "dimensions": {
+          "x": 2284.196,
+          "y": 4430.542,
+          "z": 419.903
+        }
+      },
+      "credit": {
+        "author": "Mehdi Shahsavan",
+        "authorUrl": "https://sketchfab.com/ahmagh2e",
+        "license": "CC Attribution",
+        "sourceName": "Building metallic Protective fence low poly",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-3ff781b593a94b4caf993546804449be"
+      }
+    },
+    {
+      "id": "workshop-corrupted-jacket",
+      "name": "Corrupted Jacket",
+      "kind": "workshop",
+      "file": "scenery/workshop-corrupted-jacket.glb",
+      "bytes": 3465548,
+      "bbox": {
+        "min": [
+          -4.086,
+          -1.54,
+          6.028
+        ],
+        "max": [
+          4.111,
+          1.86,
+          14.387
+        ],
+        "dimensions": {
+          "x": 8.197,
+          "y": 3.4,
+          "z": 8.359
+        }
+      },
+      "credit": {
+        "author": "Liam Moffitt",
+        "authorUrl": "https://sketchfab.com/divadan",
+        "license": "CC Attribution",
+        "sourceName": "Corrupted Jacket",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-4ea243b23ba54884be1612641f20d6f8"
+      }
+    },
+    {
+      "id": "workshop-future-car",
+      "name": "Future Car",
+      "kind": "workshop",
+      "file": "scenery/workshop-future-car.glb",
+      "bytes": 5171028,
+      "bbox": {
+        "min": [
+          -149.371,
+          -149.371,
+          -12.845
+        ],
+        "max": [
+          149.371,
+          149.371,
+          2.191
+        ],
+        "dimensions": {
+          "x": 298.742,
+          "y": 298.742,
+          "z": 15.036
+        }
+      },
+      "credit": {
+        "author": "3DHaupt",
+        "authorUrl": "https://sketchfab.com/dennish2010",
+        "license": "CC Attribution",
+        "sourceName": "Future Car",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-hliAt7xc6YU2XjXh5G4lzmQwFmR"
+      }
+    },
+    {
+      "id": "workshop-garage",
+      "name": "Garage",
+      "kind": "workshop",
+      "file": "scenery/workshop-garage.glb",
+      "bytes": 35180172,
+      "bbox": {
+        "min": [
+          -6041.098,
+          -221.725,
+          -6407.79
+        ],
+        "max": [
+          2401.238,
+          5737.987,
+          4020.542
+        ],
+        "dimensions": {
+          "x": 8442.336,
+          "y": 5959.712,
+          "z": 10428.332
+        }
+      },
+      "credit": {
+        "author": "IU Indianapolis University Library",
+        "authorUrl": "https://sketchfab.com/IUI-UniversityLibrary",
+        "license": "CC Attribution",
+        "sourceName": "Garage",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-de7a8dd4309e461cbc99be85f928b480"
+      }
+    },
+    {
+      "id": "workshop-industrial-toolbox",
+      "name": "Industrial Toolbox",
+      "kind": "workshop",
+      "file": "scenery/workshop-industrial-toolbox.glb",
+      "bytes": 2733476,
+      "bbox": {
+        "min": [
+          -0.515,
+          -0.792,
+          -1
+        ],
+        "max": [
+          0.515,
+          0.792,
+          1
+        ],
+        "dimensions": {
+          "x": 1.031,
+          "y": 1.584,
+          "z": 2
+        }
+      },
+      "credit": {
+        "author": "LuddePudde",
+        "authorUrl": "https://sketchfab.com/luddepubde",
+        "license": "CC Attribution",
+        "sourceName": "Industrial Toolbox",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-5037b5bea4bf4bd7bf53d581d478bd90"
+      }
+    },
+    {
+      "id": "workshop-shelf",
+      "name": "Shelf",
+      "kind": "workshop",
+      "file": "scenery/workshop-shelf.glb",
+      "bytes": 3637088,
+      "bbox": {
+        "min": [
+          -0.906,
+          -0.314,
+          -0.006
+        ],
+        "max": [
+          0.906,
+          0.309,
+          1.875
+        ],
+        "dimensions": {
+          "x": 1.812,
+          "y": 0.622,
+          "z": 1.882
+        }
+      },
+      "credit": {
+        "author": "Siberia",
+        "authorUrl": "https://sketchfab.com/LtxxwSibeRia",
+        "license": "CC Attribution",
+        "sourceName": "Shelf",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-7f9d5022f23e409fa18d641acba9fa4e"
+      }
+    },
+    {
+      "id": "vendel-s-workshop",
+      "name": "Vendel's Workshop",
+      "kind": "workshop",
+      "file": "scenery/vendel-s-workshop.glb",
+      "bytes": 576628,
+      "bbox": {
+        "min": [
+          -1.414,
+          -1.594,
+          -1.08
+        ],
+        "max": [
+          2.246,
+          1.463,
+          1.069
+        ],
+        "dimensions": {
+          "x": 3.66,
+          "y": 3.057,
+          "z": 2.149
+        }
+      },
+      "credit": {
+        "author": "Nick Slough",
+        "authorUrl": "https://sketchfab.com/BeholderDesign",
+        "license": "CC Attribution",
+        "sourceName": "Vendel's Workshop",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-e1594640fe8f44569d0e5824f1074eb9"
+      }
+    },
+    {
+      "id": "workshop-welder",
+      "name": "Welder",
+      "kind": "workshop",
+      "file": "scenery/workshop-welder.glb",
+      "bytes": 1901812,
+      "bbox": {
+        "min": [
+          -272.282,
+          -409.725,
+          -391.42
+        ],
+        "max": [
+          238.26,
+          231.333,
+          104.955
+        ],
+        "dimensions": {
+          "x": 510.542,
+          "y": 641.058,
+          "z": 496.375
+        }
+      },
+      "credit": {
+        "author": "Fredrik Johansen",
+        "authorUrl": "https://sketchfab.com/kird3rf",
+        "license": "CC Attribution",
+        "sourceName": "Welder",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-d0035d16d7024132814128cba7643aab"
+      }
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "geradoEm": "2026-08-22",
+  "totalNoCatalogo": 530,
+  "cars": [
+    {
+      "id": "chevrolet-opala",
+      "brand": "Chevrolet",
+      "model": "Opala",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "coupe",
+      "file": "chevrolet-opala.glb",
+      "bytes": 1029156,
+      "paint": null,
+      "credit": {
+        "author": "coptrum",
+        "authorUrl": "https://sketchfab.com/coptrum",
+        "license": "CC Attribution",
+        "sourceName": "80s/90s chevrolet opala",
+        "sourceUrl": "https://sketchfab.com/3d-models/9a54b1a9aa9a4b7b92a2b35dda15297c"
+      }
+    },
+    {
+      "id": "chevrolet-chevette",
+      "brand": "Chevrolet",
+      "model": "Chevette",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "hatchback",
+      "file": "chevrolet-chevette.glb",
+      "bytes": 1682716,
+      "paint": {
+        "materials": [
+          "molas.pintura"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "flow3d",
+        "authorUrl": "https://sketchfab.com/flow3d",
+        "license": "CC Attribution",
+        "sourceName": "Engine Chevy Chevette 1977",
+        "sourceUrl": "https://sketchfab.com/3d-models/ef123ab4b01140179745751dab5d7864"
+      }
+    },
+    {
+      "id": "volkswagen-gol",
+      "brand": "Volkswagen",
+      "model": "Gol",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "hatchback",
+      "file": "volkswagen-gol.glb",
+      "bytes": 1985744,
+      "paint": {
+        "materials": [
+          "Golf1kuzov"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Black Snow",
+        "authorUrl": "https://sketchfab.com/BlackSnow02",
+        "license": "CC Attribution",
+        "sourceName": "Volkswagen Golf mk1 [Tuning]",
+        "sourceUrl": "https://sketchfab.com/3d-models/191d4905f1274cee8539a39a0a672fd9"
+      }
+    },
+    {
+      "id": "fiat-uno",
+      "brand": "Fiat",
+      "model": "Uno",
+      "years": [
+        1984,
+        2013
+      ],
+      "category": "hatchback",
+      "file": "fiat-uno.glb",
+      "bytes": 290120,
+      "paint": {
+        "materials": [
+          "Scene_-_Root"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "subishi",
+        "authorUrl": "https://sketchfab.com/subishi",
+        "license": "CC Attribution",
+        "sourceName": "fiat uno - Turbo ie 1995",
+        "sourceUrl": "https://sketchfab.com/3d-models/f5e38b26c0af4ef2ab2f4c4b2e5aad5c"
+      }
+    },
+    {
+      "id": "fiat-147",
+      "brand": "Fiat",
+      "model": "147",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "hatchback",
+      "file": "fiat-147.glb",
+      "bytes": 504336,
+      "paint": {
+        "materials": [
+          "Body"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "lael.eugenio",
+        "authorUrl": "https://sketchfab.com/lael.eugenio",
+        "license": "CC Attribution",
+        "sourceName": "Fiat_147",
+        "sourceUrl": "https://sketchfab.com/3d-models/6c643d284d144dcb8db46ab11285ec0b"
+      }
+    },
+    {
+      "id": "volkswagen-fusca",
+      "brand": "Volkswagen",
+      "model": "Fusca",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "coupe",
+      "file": "volkswagen-fusca.glb",
+      "bytes": 4211900,
+      "paint": {
+        "materials": [
+          "Carcaa"
+        ],
+        "textured": true,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "cacatua",
+        "authorUrl": "https://sketchfab.com/cacatua",
+        "license": "CC Attribution",
+        "sourceName": "VW Fusca / Beetle",
+        "sourceUrl": "https://sketchfab.com/3d-models/2c7d8fc79824428b97ce5f56629d0ed1"
+      }
+    },
+    {
+      "id": "vw-kombi",
+      "brand": "Volkswagen",
+      "model": "Kombi",
+      "years": [
+        1957,
+        2013
+      ],
+      "category": "van",
+      "file": "vw-kombi.glb",
+      "bytes": 485396,
+      "paint": {
+        "materials": [
+          "kombi02blinn1SG1"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Scuderia Morello",
+        "authorUrl": "https://sketchfab.com/scudmorello",
+        "license": "CC Attribution",
+        "sourceName": "VW Kombi 1969 LowPoly",
+        "sourceUrl": "https://sketchfab.com/3d-models/f6a7b54ec6d24d8e95992f68be6c930c"
+      }
+    },
+    {
+      "id": "ford-corcel",
+      "brand": "Ford",
+      "model": "Corcel",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "sedan",
+      "file": "ford-corcel.glb",
+      "bytes": 1378280,
+      "paint": {
+        "materials": [
+          "material_8"
+        ],
+        "textured": false,
+        "confidence": "média"
+      },
+      "credit": {
+        "author": "Nieve5677",
+        "authorUrl": "https://sketchfab.com/niev",
+        "license": "CC Attribution",
+        "sourceName": "Ford Corcel II",
+        "sourceUrl": "https://sketchfab.com/3d-models/68ebd70c5c8b4d0bb4f613343a926361"
+      }
+    },
+    {
+      "id": "chevrolet-corsa",
+      "brand": "Chevrolet",
+      "model": "Corsa Sedan",
+      "years": [
+        1994,
+        2012
+      ],
+      "category": "sedan",
+      "file": "chevrolet-corsa.glb",
+      "bytes": 375484,
+      "paint": {
+        "materials": [
+          "Doorrfok0021Mtl"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "FidwixGamer",
+        "authorUrl": "https://sketchfab.com/fidwixgamer",
+        "license": "CC Attribution",
+        "sourceName": "Chevrolet Corsa Sedan 2010 FidwixGamer",
+        "sourceUrl": "https://sketchfab.com/3d-models/f1b5b562ca874643b98dc81645091ceb"
+      }
+    },
+    {
+      "id": "chevrolet-onix",
+      "brand": "Chevrolet",
+      "model": "Onix",
+      "years": [
+        2012,
+        2024
+      ],
+      "category": "hatchback",
+      "file": "chevrolet-onix.glb",
+      "bytes": 1290676,
+      "paint": {
+        "materials": [
+          "primary"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "uzb_rx7",
+        "authorUrl": "https://sketchfab.com/uzbek_supra",
+        "license": "CC Attribution",
+        "sourceName": "chevrolet onix",
+        "sourceUrl": "https://sketchfab.com/3d-models/bfd798c2695847b28ab681d42abc7056"
+      }
+    },
+    {
+      "id": "fiat-toro",
+      "brand": "Fiat",
+      "model": "Toro",
+      "years": [
+        2016,
+        2024
+      ],
+      "category": "pickup",
+      "file": "fiat-toro.glb",
+      "bytes": 2676000,
+      "paint": {
+        "materials": [
+          "primary.002"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "FreshCanidae1571",
+        "authorUrl": "https://sketchfab.com/FreshCanidae1571",
+        "license": "CC Attribution",
+        "sourceName": "Fiat_toro",
+        "sourceUrl": "https://sketchfab.com/3d-models/824ea9935afc44d0bbf23b911b4dc6f9"
+      }
+    },
+    {
+      "id": "vw-tcross",
+      "brand": "Volkswagen",
+      "model": "T-Cross",
+      "years": [
+        2019,
+        2024
+      ],
+      "category": "suv",
+      "file": "vw-tcross.glb",
+      "bytes": 2647432,
+      "paint": {
+        "materials": [
+          "carpaint"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Levi",
+        "authorUrl": "https://sketchfab.com/Levi3DModels",
+        "license": "CC Attribution",
+        "sourceName": "Volkswagen T-Cross TSI LEGEND 2026",
+        "sourceUrl": "https://sketchfab.com/3d-models/d8417fa18b184b2d81174f81dfe131c6"
+      }
+    },
+    {
+      "id": "jeep-renegade",
+      "brand": "Jeep",
+      "model": "Renegade",
+      "years": [
+        2015,
+        2024
+      ],
+      "category": "suv",
+      "file": "jeep-renegade.glb",
+      "bytes": 620900,
+      "paint": {
+        "materials": [
+          "jeep-mainbody"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "TintorettoArch",
+        "authorUrl": "https://sketchfab.com/TintorettoArch",
+        "license": "CC Attribution",
+        "sourceName": "Jeep KJ Renegade Painted",
+        "sourceUrl": "https://sketchfab.com/3d-models/13c4d0fbbfb542c0b0614459d2f12324"
+      }
+    },
+    {
+      "id": "ford-ka",
+      "brand": "Ford",
+      "model": "Ka",
+      "years": [
+        1997,
+        2021
+      ],
+      "category": "hatchback",
+      "file": "ford-ka.glb",
+      "bytes": 347592,
+      "paint": {
+        "materials": [
+          "am5eunew1"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Merc_TV",
+        "authorUrl": "https://sketchfab.com/szymonpasterczyk",
+        "license": "CC Attribution",
+        "sourceName": "Ford Ka MK2 2008-2016",
+        "sourceUrl": "https://sketchfab.com/3d-models/d2b74e929d9745ea9d151f8e2b195b17"
+      }
+    },
+    {
+      "id": "chevrolet-celta",
+      "brand": "Chevrolet",
+      "model": "Celta",
+      "years": [
+        2000,
+        2015
+      ],
+      "category": "hatchback",
+      "file": "chevrolet-celta.glb",
+      "bytes": 554780,
+      "paint": {
+        "materials": [
+          "Material.001"
+        ],
+        "textured": true,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "RATODDY",
+        "authorUrl": "https://sketchfab.com/kallaty459",
+        "license": "CC Attribution",
+        "sourceName": "low poly celta",
+        "sourceUrl": "https://sketchfab.com/3d-models/e6ed28ade18247b6957010933ce518e0"
+      }
+    },
+    {
+      "id": "honda-civic",
+      "brand": "Honda",
+      "model": "Civic",
+      "years": [
+        1991,
+        2024
+      ],
+      "category": "hatchback",
+      "file": "honda-civic.glb",
+      "bytes": 331484,
+      "paint": {
+        "materials": [
+          "Car_Paint"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "rifdanzz",
+        "authorUrl": "https://sketchfab.com/rifdanzz",
+        "license": "CC Attribution",
+        "sourceName": "1991 Honda Civic EG6",
+        "sourceUrl": "https://sketchfab.com/3d-models/f81da34570b145deb463fa091604d251"
+      }
+    },
+    {
+      "id": "toyota-corolla",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "years": [
+        1990,
+        2024
+      ],
+      "category": "sedan",
+      "file": "toyota-corolla.glb",
+      "bytes": 375872,
+      "paint": {
+        "materials": [
+          "body"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "PHAC",
+        "authorUrl": "https://sketchfab.com/phac",
+        "license": "CC Attribution",
+        "sourceName": "Toyota Corolla (KE80)",
+        "sourceUrl": "https://sketchfab.com/3d-models/2b30faa611e64177a94a69098d27d1fb"
+      }
+    },
+    {
+      "id": "vw-saveiro",
+      "brand": "Volkswagen",
+      "model": "Saveiro",
+      "years": [
+        1997,
+        2024
+      ],
+      "category": "pickup",
+      "file": "vw-saveiro.glb",
+      "bytes": 875280,
+      "paint": {
+        "materials": [
+          "edge_color000255"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "bimboit34",
+        "authorUrl": "https://sketchfab.com/bimboit34",
+        "license": "CC Attribution",
+        "sourceName": "Volkswagen Saveiro Cross",
+        "sourceUrl": "https://sketchfab.com/3d-models/4e71630d18e34ef09ef1abf4371859f2"
+      }
+    },
+    {
+      "id": "chevrolet-s10",
+      "brand": "Chevrolet",
+      "model": "S10",
+      "years": [
+        1995,
+        2024
+      ],
+      "category": "pickup",
+      "file": "chevrolet-s10.glb",
+      "bytes": 1661100,
+      "paint": {
+        "materials": [
+          "carpaint"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Luquita",
+        "authorUrl": "https://sketchfab.com/speedmodel",
+        "license": "CC Attribution",
+        "sourceName": "Chevrolet S10",
+        "sourceUrl": "https://sketchfab.com/3d-models/2c2fcccdd96948aaa655f936aa325f0d"
+      }
+    },
+    {
+      "id": "porsche-911",
+      "brand": "Porsche",
+      "model": "911 Turbo",
+      "years": [
+        1975,
+        1989
+      ],
+      "category": "sports",
+      "file": "porsche-911.glb",
+      "bytes": 2383144,
+      "paint": {
+        "materials": [
+          "Material.002"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Lexyc16",
+        "authorUrl": "https://sketchfab.com/Lexyc16",
+        "license": "CC Attribution",
+        "sourceName": "Porsche 911 (930) Turbo 1975",
+        "sourceUrl": "https://sketchfab.com/3d-models/de1ffd344c41481892511f7fd332c136"
+      }
+    },
+    {
+      "id": "bmw-m3-e30",
+      "brand": "BMW",
+      "model": "M3 E30",
+      "years": [
+        0,
+        0
+      ],
+      "category": "coupe",
+      "file": "bmw-m3-e30.glb",
+      "bytes": 9952032,
+      "paint": null,
+      "credit": {
+        "author": "Martin Trafas",
+        "authorUrl": "https://sketchfab.com/TinoD2",
+        "license": "CC Attribution",
+        "sourceName": "[FREE] BMW M3 E30",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-ac3c7013434e403e8faff87948caf422"
+      }
+    },
+    {
+      "id": "byd-seal",
+      "brand": "BYD",
+      "model": "Seal",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "sedan",
+      "file": "byd-seal.glb",
+      "bytes": 1056168,
+      "paint": {
+        "materials": [
+          "Scene_-_Root"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Nazh Design ✔",
+        "authorUrl": "https://sketchfab.com/NazhDesign",
+        "license": "CC Attribution",
+        "sourceName": "2024 BYD Seal Performance AWD",
+        "sourceUrl": "https://sketchfab.com/3d-models/96ec5c34852f4c3090a755d4445f5e98"
+      }
+    },
+    {
+      "id": "byd-dolphin",
+      "brand": "BYD",
+      "model": "Dolphin",
+      "years": [
+        2000,
+        2024
+      ],
+      "category": "hatchback",
+      "file": "byd-dolphin.glb",
+      "bytes": 1019928,
+      "paint": {
+        "materials": [
+          "Scene_-_Root"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Nazh Design ✔",
+        "authorUrl": "https://sketchfab.com/NazhDesign",
+        "license": "CC Attribution",
+        "sourceName": "2024 BYD Dolphin Premium Long Range",
+        "sourceUrl": "https://sketchfab.com/3d-models/8d30880667524cf3abb9e3e66c5299b5"
+      }
+    }
+  ],
+  "scenery": [
+    {
+      "id": "rick-and-morty-garage",
+      "name": "Rick And Morty Garage Fan Art",
+      "kind": "garage",
+      "file": "scenery/rick-and-morty-garage.glb",
+      "bytes": 1247252,
+      "bbox": {
+        "min": [
+          -6.65,
+          -7.3,
+          -1.623
+        ],
+        "max": [
+          4.777,
+          2.4,
+          8.147
+        ],
+        "dimensions": {
+          "x": 11.428,
+          "y": 9.7,
+          "z": 9.771
+        }
+      },
+      "credit": {
+        "author": "Mumladze28",
+        "authorUrl": "https://sketchfab.com/Mumladze28",
+        "license": "CC Attribution",
+        "sourceName": "Rick and Morty Garage (Fan Art)",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-4e882af2241d43bc9870ad7ef13fe539"
+      }
+    },
+    {
+      "id": "garage-old-industrial-building",
+      "name": "Old Industrial Building",
+      "kind": "garage",
+      "file": "scenery/garage-old-industrial-building.glb",
+      "bytes": 4008812,
+      "bbox": {
+        "min": [
+          -6.703,
+          -24.979,
+          -6.847
+        ],
+        "max": [
+          4.908,
+          9.528,
+          8.327
+        ],
+        "dimensions": {
+          "x": 11.611,
+          "y": 34.507,
+          "z": 15.174
+        }
+      },
+      "credit": {
+        "author": "Hrvoje Wächter",
+        "authorUrl": "https://sketchfab.com/gazdahrco",
+        "license": "CC Attribution",
+        "sourceName": "Old Industrial Building",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-0dafa7aaadfd4666bb4a32776c84b14e"
+      }
+    },
+    {
+      "id": "garage-brutalist-interior",
+      "name": "Brutalist Interior",
+      "kind": "garage",
+      "file": "scenery/garage-brutalist-interior.glb",
+      "bytes": 3009036,
+      "bbox": {
+        "min": [
+          -43.708,
+          -40.61,
+          -0.02
+        ],
+        "max": [
+          40.61,
+          40.913,
+          7.131
+        ],
+        "dimensions": {
+          "x": 84.318,
+          "y": 81.522,
+          "z": 7.151
+        }
+      },
+      "credit": {
+        "author": "vslite",
+        "authorUrl": "https://sketchfab.com/vslite",
+        "license": "CC Attribution",
+        "sourceName": "Brutalist Interior",
+        "sourceUrl": "https://sketchfab.com/3d-models/none-0eb40f2cb2bf4dfdbaae36095825788a"
+      }
+    }
+  ]
+}
