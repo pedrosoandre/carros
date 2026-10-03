@@ -56,6 +56,7 @@
     "@gltf-transform/functions": "^4.4.2",
     "draco3d": "^1.5.7",
     "meshoptimizer": "^1.2.0",
+    "three": "^0.186.1",
     "typescript": "^5.6.3"
   },
   "sideEffects": false

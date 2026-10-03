@@ -1,6 +1,7 @@
 /**
  * Viewer da demo. Carrega o catálogo recortado (catalog.json), mostra um carro
- * por vez e repinta a lataria usando o campo `paint` do manifesto.
+ * por vez, repinta a lataria usando o campo `paint` do manifesto e abre as
+ * peças que o autor deixou separadas (demo/aberturas.js).
  *
  * O ponto da demo é o repaint: sem o mapa `paint.materials`, trocar a cor de um
  * .glb qualquer significa ou pintar tudo (rodas e vidros junto) ou caçar o nome
@@ -11,6 +12,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { MeshoptDecoder } from "three/addons/libs/meshopt_decoder.module.js";
 import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+import { prepararAberturas, pecaDe, alternarPeca, animarAberturas } from "./aberturas.js";
 
 /** Comprimento alvo do carro em unidades de cena — normaliza escalas de autor. */
 const COMPRIMENTO_ALVO = 4.4;
@@ -183,6 +185,8 @@ let atual = null;
 const cacheCarros = new Map();
 const cacheCenarios = new Map();
 let cenarioAtual = null;
+/** O que cada carro abre, por id. Calculado uma vez, junto com o carregamento. */
+const aberturasPorCarro = new Map();
 
 function montarLista() {
   const lista = $("lista");
@@ -283,6 +287,10 @@ async function mostrarCarro(id) {
       });
       assentar(raiz, COMPRIMENTO_ALVO, "maior");
 
+      /* Depois do assentar: a escala é uniforme e já está aplicada, então a
+         dobradiça calculada aqui vale para o carro do tamanho que se vê. */
+      aberturasPorCarro.set(id, prepararAberturas(raiz));
+
       if (car.paint) {
         const mats = materiaisDeLataria(raiz, car.paint.materials);
         coresOriginais.set(id, mats.map((m) => m.color.clone()));
@@ -334,6 +342,8 @@ function atualizarHud(car) {
       "situação. Preferimos não repintar a repintar a roda.";
   }
 
+  atualizarAberturas(car.id);
+
   const { author, authorUrl, license, sourceName, sourceUrl } = car.credit;
   $("credito").innerHTML =
     `Modelo <a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a> ` +
@@ -375,11 +385,77 @@ async function trocarCenario(id) {
   carregando(false);
 }
 
+/* -------------------------------------------------------------- aberturas */
+
+const raio = new THREE.Raycaster();
+const ponteiro = new THREE.Vector2();
+
+/* Duplo clique abre e fecha SÓ a peça apontada: bater na porta do motorista
+   não escancara o carro inteiro. Um clique só continua sendo da órbita — o
+   OrbitControls precisa dele. */
+renderer.domElement.addEventListener("dblclick", (evento) => {
+  if (!atual) return;
+
+  const r = renderer.domElement.getBoundingClientRect();
+  ponteiro.x = ((evento.clientX - r.left) / r.width) * 2 - 1;
+  ponteiro.y = -((evento.clientY - r.top) / r.height) * 2 + 1;
+  raio.setFromCamera(ponteiro, camera);
+
+  const alvo = raio.intersectObject(atual.raiz, true)
+    .map((h) => pecaDe(h.object))
+    .find(Boolean);
+
+  if (!alvo) return;
+  controls.autoRotate = false;             // abriu peça, quer olhar, não ver girar
+  const aberto = alternarPeca(alvo);
+  const { rotulo, genero } = alvo.userData.dobradica;
+  $("abre-nota").textContent = `${rotulo} ${aberto ? "abert" : "fechad"}${genero}.`;
+});
+
+/** Linha do painel: o que este carro abre, ou por que não abre nada. */
+function atualizarAberturas(id) {
+  const pecas = aberturasPorCarro.get(id) || [];
+  const painel = $("aberturas");
+  const nota = $("abre-nota");
+  if (!painel) return;
+
+  painel.dataset.abre = pecas.length ? "sim" : "nao";
+
+  if (!pecas.length) {
+    /* São duas razões diferentes, e chamar as duas de "lataria fundida" era
+       falso: em 34 dos 530 a carroceria é mesmo uma malha só, mas nos outros
+       371 as peças vêm separadas — o Onix tem 126 — e o que falta é nome. O
+       autor exportou tudo como `group_12` e `onix_90_31`, e aí não há como
+       saber qual daquilo é a porta. Conta malha para dizer o caso certo. */
+    let malhas = 0;
+    atual?.raiz.traverse((o) => { if (o.isMesh) malhas++; });
+
+    nota.textContent = malhas <= 3
+      ? "A carroceria deste arquivo é uma malha fundida só, então não existe peça " +
+        "para girar. É o caso de 34 dos 530 carros."
+      : `As ${malhas} peças deste arquivo estão separadas, mas os nomes não dizem ` +
+        "qual é porta, capô ou tampa — então não há o que identificar. É o caso de " +
+        "371 dos 530 carros, e depende de como o autor exportou.";
+    return;
+  }
+
+  const conta = pecas.reduce((c, p) => ({ ...c, [p.rotulo]: (c[p.rotulo] || 0) + 1 }), {});
+  const lista = Object.entries(conta)
+    .map(([rotulo, n]) => (n > 1 ? `${n} ${rotulo.toLowerCase()}s` : rotulo.toLowerCase()))
+    .join(" · ");
+  nota.textContent = `Dois cliques na peça para abrir: ${lista}.`;
+}
+
 /* ------------------------------------------------------------------ loop  */
 
-function animar() {
+let ultimoQuadro = performance.now();
+
+function animar(agora = performance.now()) {
   requestAnimationFrame(animar);
+  const dt = Math.min(0.1, (agora - ultimoQuadro) / 1000);   // aba oculta devolve dt enorme
+  ultimoQuadro = agora;
   ajustarTamanho();
+  if (atual) animarAberturas(atual.raiz, dt);
   controls.update();
   renderer.render(scene, camera);
 }
