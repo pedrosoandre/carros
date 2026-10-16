@@ -1,6 +1,6 @@
 # Créditos dos modelos 3D
 
-565 itens (530 carros + 35 cenários), 2135.2 MB no total.
+567 itens (532 carros + 35 cenários), 2141.2 MB no total.
 Todos baixados do [Sketchfab](https://sketchfab.com) via API, filtrados para licenças que
 **permitem uso comercial**.
 
@@ -361,6 +361,7 @@ Nenhum modelo tem cláusula NonCommercial ou NoDerivs.
 | [Mini Cooper S](https://sketchfab.com/3d-models/b262744901a04cda823f17289d1a4847) | cenobyte | CC Attribution | `mini-cooper.glb` |
 | [2017 Mini Countryman](https://sketchfab.com/3d-models/8d5fd459a54d4a529c2be4c7ac444b01) | razor24 | CC Attribution | `mini-countryman.glb` |
 | [Low Poly Vehicle Mini Pack 7](https://sketchfab.com/3d-models/none-c8fce59e51874a4182dc20a66cbc6c74) | Vladek | CC Attribution | `mini-low-poly.glb` |
+| [1995 Mitsubishi Eclipse Robocar Fast & Furious](https://sketchfab.com/3d-models/1995-mitsubishi-eclipse-robocar-fast-furious-277e17565771475fae51629d94ad85a1) | Ddiaz Design | CC Attribution | `mitsubishi-eclipse-robocar.glb` |
 | [Mitsubishi L200](https://sketchfab.com/3d-models/372e50454f3246239a5a1551f839f862) | David_Holiday | CC Attribution | `mitsubishi-l200.glb` |
 | [Mitsubishi Lancer Evolution 6  \| www.vecarz.com](https://sketchfab.com/3d-models/c3d5dcd8ff724bc88c46760d92fc5188) | vecarz | CC Attribution | `mitsubishi-lancer.glb` |
 | [Mitsubishi Lancer Evolution 6  \| www.vecarz.com](https://sketchfab.com/3d-models/none-c3d5dcd8ff724bc88c46760d92fc5188) | vecarz | CC Attribution | `mitsubishi-lancer-evolution.glb` |
@@ -495,6 +496,7 @@ Nenhum modelo tem cláusula NonCommercial ou NoDerivs.
 | [2021 Toyota RAV4 Hybrid](https://sketchfab.com/3d-models/de74fe4e98004c92b1103947597d1b53) | tonielpro520 | CC Attribution | `toyota-rav4.glb` |
 | [Toyota Supra MK IV (1994)](https://sketchfab.com/3d-models/none-eb9bb1eb41db431cb078088ae1ce45f8) | Martin Trafas | CC Attribution | `toyota-supra-mk.glb` |
 | [Toyota Supra mk4](https://sketchfab.com/3d-models/none-8bebdee25b774067929bb33e648533ac) | Black Snow | CC Attribution | `toyota-supra-mk4.glb` |
+| [Toyota Supra Mk4 [FREE], Fast and Furious.](https://sketchfab.com/3d-models/toyota-supra-mk4-free-fast-and-furious-172e4b0b890a463e80e4dc483fffe7a6) | sudhakar2378 | CC Attribution | `toyota-supra-mk4-ff.glb` |
 | [Toyota SW4 Fortuner](https://sketchfab.com/3d-models/379e4180f137480b9a8578e7da9184e2) | Nieve5677 | CC Attribution | `toyota-sw4.glb` |
 | [2020 Toyota GR Yaris](https://sketchfab.com/3d-models/44cb958908b94aa5aad0d856994f35a3) | DisneyCars | CC Attribution | `toyota-yaris.glb` |
 | [VW Amarok Dirty](https://sketchfab.com/3d-models/2744d7c042244a539029e259df368b2e) | vasyl.yarmola | CC Attribution | `vw-amarok.glb` |

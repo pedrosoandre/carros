@@ -2,8 +2,8 @@
   "name": "carros",
   "description": "Biblioteca aberta de modelos 3D de carros vendidos no Brasil",
   "version": "1.1.0",
-  "count": 530,
-  "totalBytes": 1876757768,
+  "count": 532,
+  "totalBytes": 1882978900,
   "brands": [
     "Alfa Romeo",
     "Aston Martin",
@@ -2944,8 +2944,14 @@
       ],
       "category": "coupe",
       "file": "dodge-dominic-toretto-s.glb",
-      "bytes": 2421340,
-      "paint": null,
+      "bytes": 1759476,
+      "paint": {
+        "materials": [
+          "Charcoal"
+        ],
+        "textured": false,
+        "confidence": "alta"
+      },
       "credit": {
         "author": "Emmanual Robinson, Jr.",
         "authorUrl": "https://sketchfab.com/3001105",
@@ -8144,6 +8150,32 @@
       }
     },
     {
+      "id": "mitsubishi-eclipse-robocar",
+      "brand": "Mitsubishi",
+      "model": "Eclipse Robocar",
+      "years": [
+        1995,
+        1995
+      ],
+      "category": "coupe",
+      "file": "mitsubishi-eclipse-robocar.glb",
+      "bytes": 4228504,
+      "paint": {
+        "materials": [
+          "untitledMitsubishi_EclipseF1_1995Paint_Material1"
+        ],
+        "textured": true,
+        "confidence": "alta"
+      },
+      "credit": {
+        "author": "Ddiaz Design",
+        "authorUrl": "https://sketchfab.com/ddiaz-design",
+        "license": "CC Attribution",
+        "sourceName": "1995 Mitsubishi Eclipse Robocar Fast & Furious",
+        "sourceUrl": "https://sketchfab.com/3d-models/1995-mitsubishi-eclipse-robocar-fast-furious-277e17565771475fae51629d94ad85a1"
+      }
+    },
+    {
       "id": "mitsubishi-l200",
       "brand": "Mitsubishi",
       "model": "L200",
@@ -11284,6 +11316,26 @@
         "license": "CC Attribution",
         "sourceName": "Toyota Supra mk4",
         "sourceUrl": "https://sketchfab.com/3d-models/none-8bebdee25b774067929bb33e648533ac"
+      }
+    },
+    {
+      "id": "toyota-supra-mk4-ff",
+      "brand": "Toyota",
+      "model": "Supra Mk4 F&F",
+      "years": [
+        1994,
+        1994
+      ],
+      "category": "sports",
+      "file": "toyota-supra-mk4-ff.glb",
+      "bytes": 2654492,
+      "paint": null,
+      "credit": {
+        "author": "sudhakar2378",
+        "authorUrl": "https://sketchfab.com/sudhakar2378",
+        "license": "CC Attribution",
+        "sourceName": "Toyota Supra Mk4 [FREE], Fast and Furious.",
+        "sourceUrl": "https://sketchfab.com/3d-models/toyota-supra-mk4-free-fast-and-furious-172e4b0b890a463e80e4dc483fffe7a6"
       }
     },
     {
