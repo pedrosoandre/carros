@@ -1,6 +1,6 @@
 # Créditos dos modelos 3D
 
-567 itens (532 carros + 35 cenários), 2141.2 MB no total.
+567 itens (532 carros + 35 cenários), 2141.3 MB no total.
 Todos baixados do [Sketchfab](https://sketchfab.com) via API, filtrados para licenças que
 **permitem uso comercial**.
 
@@ -588,3 +588,9 @@ Nenhum modelo tem cláusula NonCommercial ou NoDerivs.
 | [Shelf](https://sketchfab.com/3d-models/none-7f9d5022f23e409fa18d641acba9fa4e) | Siberia | CC Attribution | `scenery/workshop-shelf.glb` |
 | [Vendel's Workshop](https://sketchfab.com/3d-models/none-e1594640fe8f44569d0e5824f1074eb9) | Nick Slough | CC Attribution | `scenery/vendel-s-workshop.glb` |
 | [Welder](https://sketchfab.com/3d-models/none-d0035d16d7024132814128cba7643aab) | Fredrik Johansen | CC Attribution | `scenery/workshop-welder.glb` |
+
+## Peças adicionadas a outros modelos
+
+| Obra original | Autor | Licença | Usado em |
+|---|---|---|---|
+| [INLINE 6 ENGINE](https://sketchfab.com/3d-models/inline-6-engine-b819462500714069b6515ec95051c4e8) | EZ-GAZI | CC Attribution | motor dentro de `nissan-gt-r.glb` e `toyota-supra-mk4-ff.glb` |

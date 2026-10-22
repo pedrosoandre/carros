@@ -3,7 +3,7 @@
   "description": "Biblioteca aberta de modelos 3D de carros vendidos no Brasil",
   "version": "1.1.0",
   "count": 532,
-  "totalBytes": 1882978900,
+  "totalBytes": 1883125972,
   "brands": [
     "Alfa Romeo",
     "Aston Martin",
@@ -2944,7 +2944,7 @@
       ],
       "category": "coupe",
       "file": "dodge-dominic-toretto-s.glb",
-      "bytes": 1759476,
+      "bytes": 1768204,
       "paint": {
         "materials": [
           "Charcoal"
@@ -8159,7 +8159,7 @@
       ],
       "category": "coupe",
       "file": "mitsubishi-eclipse-robocar.glb",
-      "bytes": 4228504,
+      "bytes": 4232312,
       "paint": {
         "materials": [
           "untitledMitsubishi_EclipseF1_1995Paint_Material1"
@@ -8515,7 +8515,7 @@
       ],
       "category": "sports",
       "file": "nissan-gt-r.glb",
-      "bytes": 3018480,
+      "bytes": 3093060,
       "paint": {
         "materials": [
           "Material.001"
@@ -11328,7 +11328,7 @@
       ],
       "category": "sports",
       "file": "toyota-supra-mk4-ff.glb",
-      "bytes": 2654492,
+      "bytes": 2714448,
       "paint": null,
       "credit": {
         "author": "sudhakar2378",
